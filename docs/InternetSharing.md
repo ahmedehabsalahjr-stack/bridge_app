@@ -12,7 +12,7 @@ This feature works using proxy setting on the device, and hence only apps that r
 ## TL;DR - Quick Permission Grant
 
 To enable internet sharing, grant the app this permission via ADB:
-
+adb shell pm grant com.orienlabs.bridge.wear android.permission.WRITE_SECURE_SETTINGS
 ```bash
 adb shell pm grant com.orienlabs.bridge.wear android.permission.WRITE_SECURE_SETTINGS
 ```
