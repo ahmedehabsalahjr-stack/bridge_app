@@ -8,8 +8,17 @@ This is an ***experimental*** feature and may not always work, or may work only 
 ## Apps that are known to ***not*** work
 This feature works using proxy setting on the device, and hence only apps that respects the proxy setting on the device will work. We'll update list here when apps are identified to be not working.
 * WhatsApp
+*** Begin Patch
+*** Update File: docs/InternetSharing.md
+@@
+ ## TLDR - Quick Permission Grant
+-
++ths
+*** End Patch
 
 ## TL;DR - Quick Permission Grant
+
+ths
 
 To enable internet sharing, grant the app this permission via ADB:
 
